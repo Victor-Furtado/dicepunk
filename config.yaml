@@ -32,6 +32,9 @@ menu:
     - name: Introdução
       url: /
       weight: 1
+    - name: Regras Básicas
+      url: /basic_rules
+      weight: 2
     - name: Blog
       url: /post/
       weight: 97 
