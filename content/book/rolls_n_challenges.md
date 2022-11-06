@@ -1,10 +1,8 @@
 ---
-title: "Regras Básicas"
+title: "Rolagens e Desafios"
 ---
 
-Esta sessão apresentará as regras básicas de DicePunk.
-
-# Rolagem de dados
+## Rolagem de dados
 
 Por padrão a rolagem de dados tem como base dados de 6 lados. Considere que sempre que aparecer uma número seguido da letra mínuscula "d" significa uma rolagem de dados de 6 lados.
 
@@ -12,7 +10,7 @@ Ex¹.: "2d" equivale à "dois dados de seis lados".
 
 Ex².: "4d" equivale à "quatro dados de seis lados".
 
-# Desafios (Rolagem de Teste)
+## Desafios (Rolagem de Teste)
 
 Sempre que um jogador decidir que seu personagem realizará uma ação cuja a falha seja relevante para a narrativa construida pelo mestre do jogo, ele deverá realizar um *Rolagem de Teste* (RT) com dados contra a *Rolagem Dificuldade* (RD) do **DESAFIO**.
 
@@ -32,7 +30,7 @@ O teste do Desafio é feito da seguinte forma:
 > Calculo das ampliações:
 > $$ \lfloor\dfrac{VD}{VR}\rfloor -1 $$ 
 
-## Exemplos de desafios
+### Exemplos de desafios
 
 > *João (Mestre), Maria e André estão jogando uma sessão de DICEPUNK e os personagens de Maria e André encontram uma porta de castelo trancada*
 >
