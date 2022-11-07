@@ -1,5 +1,6 @@
 ---
 title: "Rolagens e Desafios"
+weight: 2
 ---
 
 ## Rolagem de dados

@@ -15,12 +15,12 @@ imaging:
   quality: 99
 
 params:
-  # footer: Victor "Stolen" Furtado - 2022
+  footer: Victor "Stolen" Furtado 2022
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
   katex: true
   hideHeaderLinks: false
-  search: true
+  search: false
   showThemeSwitcher: false
   defaultDarkTheme: true
   moveFooterToHeader: true
@@ -29,7 +29,7 @@ params:
 
 menu:
   nav:
-    - name: Introdução
+    - name: Inicio
       url: /
       weight: 1
     - name: Livro Base
@@ -38,12 +38,12 @@ menu:
     - name: Blog
       url: /post/
       weight: 97 
-    - name: Tags
-      url: /tags/
-      weight: 98
-    - name: RSS
-      url: /index.xml
-      weight: 99
+    # - name: Tags
+    #   url: /tags/
+    #   weight: 98
+    # - name: RSS
+    #   url: /index.xml
+    #   weight: 99
 
 markup:
   defaultMarkdownHandler: goldmark

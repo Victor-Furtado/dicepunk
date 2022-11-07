@@ -1,6 +1,6 @@
 # DICEPUNK: SISTEMA DE RPG 
 
-## WELCOME!
+## BEM VINDO  !
 Este é um sistema de RPG aberto para alteração e melhoria pela comunidade.
 
  Veja como vai o meu projeto
