@@ -43,10 +43,10 @@ Estou aceitando as seguintes ajudas no momento:
 - ~~Adicione conteúdo para o livro~~
 - ~~Converse comigo para me ajudar a matar meus demônios internos~~
 
-## COMO RODAR ESTE PROJETO
-1. Tenha [HUGO](https://gohugo.io/) instalado
-2. Rode ```hugo server``` para servir o site no localhost ou apenas ```hugo``` para gerar o site estático na pasta */public*
-
+## COMO RODAR LOCALMENTE ESTE PROJETO
+1. clone este projeto em sua pasta de transferência ```git clone https://github.com/Victor-Furtado/dicepunk```
+2. Tenha [HUGO](https://gohugo.io/) instalado
+3. Rode ```hugo server``` para servir o site no localhost ou apenas ```hugo``` para gerar o site estático na pasta */public*
 
 # PERGUNTAS FREQUENTES
 
