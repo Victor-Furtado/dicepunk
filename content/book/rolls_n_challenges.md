@@ -20,16 +20,13 @@ O teste do Desafio é feito da seguinte forma:
 
 2. Para o desafio o personagem soma o valor do **Verbo** utilizado na descrição da ação com o **Talento** relacionado à mesma ação, e o resultado representa a quantidade de dados que serão rolados pelo jogador.
 
-3. Compare o dado mais alto do jogador com o dado mais alto do **Desafio** (Sendo o dado fixo ou não). Se o dado do jogador for maior, adicione-o ao *Valor Resultado* (VR), se for menor ou igual descarte o dado. Repita então o processo com o próximo par de dados até que não seja mais possível comparar.
+3. Compare o dado mais alto do jogador com o dado mais alto do **Desafio** (Sendo o dado fixo ou não). Se o dado do jogador for maior ou igual significa um "Sucesso", se for menor Significa uma "Falha". Repita então o processo com o próximo par de dados até que não seja mais possível comparar.
 
-4. Quaisquer dados restantes do Jogador são somados ao VR e dados restantes do **Desafio** são deduzidos do VR.
+4. Quaisquer dados restantes do Jogador considerados "Sucessos" e dados restantes do **Desafio** são considerados "Falhas".
 
-5. Se o VR for superior ao *Valor Dificuldade* (VD) a ação do jogador é bem sucedida. Se não, a ação falha.
+5. Para cada "Sucesso" a mais que "Falhas" o jogador ganha um **Ponto de Sucesso** em seu resultado. 
 
-6. Além disso, para cada Multiplo de VD que seu VR ultrapassa além do primeiro o jogador ganha uma **Ampliação** em seu resultado.
-
-> Calculo das ampliações:
-> $$ \lfloor\dfrac{VD}{VR}\rfloor -1 $$ 
+6. Se o número de "Falhas" for superior ou igual ao número de "Sucessos" a ação do jogador falha.
 
 ### Exemplos de desafios
 
@@ -47,23 +44,23 @@ O teste do Desafio é feito da seguinte forma:
 >
 > **JOÃO:** *Tudo bem, vou rolar o desafio da porta*
 >
-> *A Rolagem Dificuldade (RD) da porta é [5 5 4d] ou seja [5 5] como valores fixos e uma rolagem de 4d, com Valor Dificuldade (VD) de 6*
+> *A Rolagem Dificuldade (RD) da porta é* [&#9860; &#9860; 4d] *ou seja* [&#9860; &#9860;] *como valores fixos e uma rolagem de 4d*
 >
-> *João rola os 4 dados e como resultado obtem [6 3 3 1]. então o resultado da RD é [5 5] + [6 3 3 1] = [6 5 5 3 3 1];*
+> *João rola os 4 dados e como resultado obtem [&#9861; &#9858; &#9858; &#9856;]. então o resultado da RD é* [&#9860; &#9860;] + [&#9861; &#9858; &#9858; &#9856;] = [&#9861; &#9860; &#9860; &#9858; &#9858; &#9856;]
 >
 > **JOÃO:** *Pode rolar ANDRÉ*
 >
 > *O personagem de André tem CORPO 2 e FORÇAR 3 totalizando uma Rolagem de Teste (RT) de (2+3)d ou 5d*
 >
-> *André rola os 5 dados e como resultado da RT obtem [5 4 4 4 2];*
+> *André rola os 5 dados e como resultado da RT obtem [&#9860; &#9859; &#9859; &#9859; &#9857;];*
 >
-> *As comparações são as seguintes: [**6**:5] [**5**:4] [**5**:4] [3:**4**] [**3**:2] [**1**:-] ;*
+> *As comparações são as seguintes: [&#9861;:**&#9861;**] [**&#9860;**:&#9859;] [**&#9860;**:&#9859;] [&#9858;:**&#9859;**] [**&#9858;**:&#9857;] [**&#9856;**:-] ;*
 >
-> *As comparações em que os dados de André são menores descartam seus dados. [**6**:5] [**5**:4] [**5**:4] [**3**:2] [**1**:-] ;*
+> *As comparações em que os dados de André são menores são falhas. [**&#9860;**:&#9859;] [**&#9860;**:&#9859;] [**&#9858;**:&#9857;] [**&#9856;**:-] ;*
 >
-> *As comparações em que os dados de André são maiores somam o Valor Resultado (VR) de André. [3:**4**]. Logo o VR é 4*
+> *As comparações em que os dados de André são maiores ou iguais são sucessos. [&#9861;:**&#9861;**] [&#9858;:**&#9859;**].*
 >
-> *Por fim compara-se o VR 4 de André contra o Valor Dificuldade (VD) 6 da porta, Resultado: Falha.*
+> *Por fim André tem 2 Sucesso contra 4 falhas, Resultado: A AÇÃO FALHA.*
 >
 > **ANDRÉ:** *Droga...*
 >
@@ -77,22 +74,16 @@ O teste do Desafio é feito da seguinte forma:
 >
 > **MARIA:** *Sem problemas, sou uma ladra profissional*
 >
-> *Novamente João rola a Rolagem Dificuldade (RD) da porta (5 5 4d) e como resultado nos dados obtem [5 4 3 2]. então o resultado da RD é [5 5] + [5 4 3 2] = [5 5 5 4 3 2];*
+> *Novamente João rola a Rolagem Dificuldade (RD) da porta (&#9860; &#9860; 4d) e como resultado nos dados obtem [&#9860; &#9859; &#9858; &#9857;]. então o resultado da RD é [&#9860; &#9860;] + [&#9860; &#9859; &#9858; &#9857;] = [&#9860; &#9860; &#9860; &#9859; &#9858; &#9857;];*
 >
 > *O personagem de Maria tem Manha 3 e ROUBAR 5 totalizando uma Rolagem de Teste (RT) de (3+5)d ou 8d*
 >
-> *Maria rola os 8 dados e como resultado da RT obtem [6 6 5 5 4 3 1 1];*
+> *Maria rola os 8 dados e como resultado da RT obtem [&#9861; &#9861; &#9860; &#9860; &#9859; &#9858; &#9856; &#9856;];*
 >
-> *As comparações são as seguintes: [5:**6**] [5:**6**] [**5**:5] [4:**5**] [3:**4**] [2:**3**] [-:**1**] [-:**1**];*
+> *As comparações são as seguintes: [&#9860;:**&#9861;**] [&#9860;:**&#9861;**] [**&#9860;**:&#9860;] [&#9859;:**&#9860;**] [&#9858;:**&#9859;**] [&#9857;:**&#9858;**] [-:**&#9856;**] [-:**&#9856;**];*
 >
-> *Maria descarta apenas um dado: [**5**:5];*
+> *Maria tem apenas uma falha: [**&#9860;**:&#9860;];*
 >
-> *Todos os demais dados somam o VR de Maria: 6 + 6 + 5 + 4 + 3 + 1 + 1 = 26!*
+> *Então Maria tem 7 sucessos contra uma falha.*
 >
-> *Então Maria tem 26 contra o VD da Porta que é 6.*
->
-> *O calculo de ampliações é feito pela quociente inteiro da divisão entre VR e VD menos um:*
->
-> *$$ \lfloor\dfrac{VD}{VR}\rfloor -1 = \lfloor\dfrac{26}{6}\rfloor -1 $$*
->
-> *Resultado de Maria: Sucesso + 3 ampliações.*
+> *Resultado de Maria: 6 Pontos de sucesso.*
