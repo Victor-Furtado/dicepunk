@@ -1,5 +1,6 @@
 ---
 title: "Ficha de Personagem"
+weight: 3
 ---
 
 Abaixo está a anatomia da ficha de DICEPUNK
@@ -57,7 +58,7 @@ Os verbos são as habiliadades e perícias do personagem para fazer qualquer aç
 
 São uns dos principáis recursos de DICEPUNK, representam respectivamente o dano sofrido e sua exalstão, ambos referentes a todos os aspectos do personagem (Fisicos, Mentais, Espirituáis Etc.)
 
-Ambos tem valor 10 e podem estar marcados com:
+Ambos tem 10 espaços que podem estar marcados com:
  - **&#8726;** que indica que está *gasto*
     - Vida gasta significa que é um dano superficial, ou seja, pode ser tratado normalmente e tem recuperação natural.
     - Energia gasta indica um cansaço momentâneo e recupera ao fim do encontro.
@@ -65,5 +66,13 @@ Ambos tem valor 10 e podem estar marcados com:
     - Vida exausta significa que é um dano grave, ou seja, pode ser tratado normalmente e não tem recuperação natural.
     - Energia exausta indica um cansaço duradouro e recupera ao fim da aventura.
  - **&#9632;** que indica que está *destruido*
-    - Vida destruida significa que é um dano permanente, ou seja, não pode ser tratado normalmente e não tem recuperação natural. 
+    - Vida destruida significa que é um dano permanente, ou seja, não pode ser tratado normalmente e não tem recuperação natural.
     - Energia destruida indica um cansaço permanente e não pode ser recuperado normalmente. 
+
+## Dons e Legados
+Dons e Legados são habilidades que o personagem possui. Normalmente provenientes da ancestralidade ou do caminho do personagem.
+
+Dons estao relacionados à habilidades passivas sem custo e Legado são habilidades ativáveis sem teste.
+
+## Acervo de Ações
+Anote aqui suas principais habilidades e rolagens durante o jogo, facilita sua consulta e evita interromper o fluxo do jogo
