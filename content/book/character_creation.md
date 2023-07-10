@@ -11,7 +11,7 @@ O primeiro passo para se criar um personagem é seu conceito, isso é quase unan
     - Uma sábia da floresta que tenta compreender qual o limiar entre o humano "civilizado" e o animal humano.
     
 ## Ancestralidade
-Uma ancestralidade representa para seu personagem suas origens, fundações e/ou "berço", narrativamente falando. Coisas como: *raça, planeta/reino de origem, conceito fundador Etc.*. Mecanicamente falando, vai definir os **TALENTOS**. Ancestralidade pode tambem fornecer um **DON** e/ou um **LEGADO**
+Uma ancestralidade representa para seu personagem suas origens, fundações e/ou "berço", narrativamente falando. Coisas como: *raça, planeta/reino de origem, conceito fundador Etc.*. Mecanicamente falando, vai definir os **TALENTOS**. Ancestralidade pode tambem fornecer um **DOM** e/ou um **LEGADO**
 
 ## Caminho
 Todos em nossas vidas tomamos caminhos para chegar onde estamos, e novos caminhos para onde vamos. Com o personagem não é diferente. O caminho vai resumir as capacidades que mais foram usadas e onde existem pontos de conforto ou não nas tomadas de ação. O caminho do personagem vai definir os **VERBOS** na ficha. Caminho pode tambem fornecer um **DOM** e/ou um **LEGADO**
