@@ -52,7 +52,7 @@ O teste do Desafio é feito da seguinte forma:
 >
 > *O personagem de André tem CORPO 2 e FORÇAR 3 totalizando uma Rolagem de Teste (RT) de (2+3)d ou 5d*
 >
-> *André rola os 5 dados e como resultado da RT obtem [&#9860; &#9859; &#9859; &#9859; &#9857;];*
+> *André rola os 5 dados e como resultado da RT obtem [&#9861; &#9859; &#9859; &#9859; &#9857;];*
 >
 > *As comparações são as seguintes: [&#9861;:**&#9861;**] [**&#9860;**:&#9859;] [**&#9860;**:&#9859;] [&#9858;:**&#9859;**] [**&#9858;**:&#9857;] [**&#9856;**:-] ;*
 >

@@ -10,9 +10,9 @@ Este é um sistema de RPG aberto para alteração e melhoria pela comunidade.
 
 - ### Capítulos do Livro:
   - [ ] Introdução
-  - [ ] Regras Básicas
+  - [x] Regras Básicas
   - [x] Anatomia da Ficha de RPG
-  - [ ] Criação de personagem
+  - [x] Criação de personagem
   - [ ] Equipamento
   - [ ] Cenários de jogo
   - [ ] Condições de personagem
